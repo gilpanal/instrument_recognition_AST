@@ -7,7 +7,7 @@ from essentia.standard import MonoLoader
 import os
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
-# from annotation_utils import LOWER_SPEECH_PRED_SCORE
+from annotation_utils import LOWER_SPEECH_PRED_SCORE
 from src.models.ast_models import ASTModel
 from instrument_filtered_labels import instrument_labels
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
@@ -141,8 +141,7 @@ def getaudioexcerpt(filepath):
     
     return processedpath
 
-# def make_instrument_pred(sample_audio_path, is_speech_pred):            
-def make_instrument_pred(sample_audio_path):
+def make_instrument_pred(sample_audio_path, is_speech_pred):
     inst_label = None
     inst_score = 0
     feats = make_features(sample_audio_path, mel_bins=128)           # shape(1024, 128)
@@ -176,8 +175,8 @@ def make_instrument_pred(sample_audio_path):
         label = labels[idx]
         score = result_output[idx]
         # Skip "Speech" label if the is_speech_score is too low
-        #if label == "Speech" and is_speech_pred < LOWER_SPEECH_PRED_SCORE:
-        #    continue
+        if label == "Speech" and is_speech_pred < LOWER_SPEECH_PRED_SCORE:
+            continue
         if label in instrument_labels:
             inst_label = label
             inst_score = score

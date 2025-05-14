@@ -2,11 +2,47 @@ import os
 import csv
 import sys
 from instrument_recognition import make_instrument_pred, init_inst_recog
+from annotation_utils import THRESHOLD_SPEECH_PRED_SCORE
+from audio_analysis import tellifisspeech
 
-def analysis(path):    
-    instrum_label, instrum_score = make_instrument_pred(path)
-    print(f"Instrument label: {instrum_label}, Score: {instrum_score}")
-    return instrum_label.lower()
+# Define a single dictionary mapping each label variant to its category
+LABEL_CATEGORIES = {
+    "vocals": [
+        "singing", "mantra", "male singing", "female singing", 
+        "child singing", "synthetic singing", "choir", "yodeling", 
+        "chant", "humming", "rapping"
+    ],
+    "drums": [
+        "drum kit", "percussion", "drum machine", "drum", "snare drum", 
+        "rimshot", "drum roll", "bass drum", "timpani", "tabla", 
+        "cymbal", "hi-hat", "tambourine", "wood block"
+    ],
+    "bass": [
+        "bass guitar", "double bass"
+    ]
+}
+
+# Flatten the LABEL_CATEGORIES dict into a reverse lookup map
+LABEL_LOOKUP = {
+    label.lower(): category
+    for category, aliases in LABEL_CATEGORIES.items()
+    for label in aliases
+}
+
+def map_to_proposed_label(label):
+    return LABEL_LOOKUP.get(label.lower(), "other")
+
+def analysis(path):
+    print(f"Analyzing file: {path}")
+    is_speech_pred = tellifisspeech(path)
+    print(f"Is speech prediction: {is_speech_pred}")
+    if is_speech_pred < THRESHOLD_SPEECH_PRED_SCORE:
+        instrum_label, instrum_score = make_instrument_pred(path, is_speech_pred)
+        print(f"Instrument label: {instrum_label}, Score: {instrum_score}")
+        proposed = map_to_proposed_label(instrum_label)
+        return instrum_label.lower(), proposed
+    else:
+        return "speech", "speech"
 
 def find_audio_files(directory):
     """Recursively find .wav and .mp3 files in the directory, skipping files that contain 'mix' (case-insensitive)."""
@@ -22,16 +58,30 @@ def find_audio_files(directory):
     return audio_files
 
 def write_results(audio_files, output_file='results_dsd100.csv'):
-    """Write the audio file info and analysis result to a CSV file."""
     with open(output_file, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['label', 'path', 'prediction'])
+        writer.writerow(['label', 'path', 'prediction', 'proposed_label'])
         for filename, path in audio_files:
-            score = analysis(path)
-            writer.writerow([filename, path, score])
+            prediction, proposed = analysis(path)
+            writer.writerow([filename, path, prediction, proposed])
+
+def compute_accuracy(results_file='results_dsd100.csv'):
+    total = 0
+    correct = 0
+    with open(results_file, mode='r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            total += 1
+            if row['label'].strip().lower() == row['proposed_label'].strip().lower():
+                correct += 1
+    if total == 0:
+        print("No data to evaluate.")
+    else:
+        accuracy = (correct / total) * 100
+        print(f"Accuracy: {accuracy:.2f}% ({correct}/{total} matches)")
 
 def main():
-    init_inst_recog()
+    
     if len(sys.argv) != 2:
         print("Usage: python analyze_audio.py <directory_path>")
         sys.exit(1)
@@ -42,9 +92,12 @@ def main():
         print(f"Error: '{directory}' is not a valid directory.")
         sys.exit(1)
 
+    init_inst_recog()
     audio_files = find_audio_files(directory)
     write_results(audio_files)
     print(f"Analysis complete. Results written to 'results_dsd100.csv'.")
+    
+    compute_accuracy('results_dsd100.csv')  # <-- Call the accuracy function
 
 if __name__ == "__main__":
     main()

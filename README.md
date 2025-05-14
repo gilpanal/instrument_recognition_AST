@@ -1,4 +1,5 @@
-git clone
+```bash
+git clone https://gitlab.telecom-paris.fr/idsinge/hiaudio/instrument_recognition_ast_results.git
 
 cd instrum_recogn_results
 
@@ -12,4 +13,11 @@ pip install -r requirements.txt
 python analyze_dsd100.py /path/to/dsd100
 
 python analyze_moisesdb.py /path/to/moisesdb
+
+
+python list_labels.py results_dsd100subset.csv
+
+python computeaccuracy.py results_dsd100subset.csv
+
+```
 

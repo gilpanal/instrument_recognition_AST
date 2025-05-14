@@ -81,7 +81,7 @@ instrument_labels = [
     "Choir",
     "Yodeling",
     "Chant",
-    "Voice",
+    "Mantra",
     "Male singing",
     "Female singing",
     "Child singing",
