@@ -1,7 +1,7 @@
 import os
 import csv
 import sys
-from instrument_recognition import make_instrument_pred, init_inst_recog
+from instrument_recognition import make_instrument_pred, init_inst_recog, getaudioexcerpt
 from annotation_utils import THRESHOLD_SPEECH_PRED_SCORE
 from audio_analysis import tellifsilence, tellifisspeech
 
@@ -12,12 +12,12 @@ LABEL_CATEGORIES = {
     "vocals": [
         "singing", "mantra", "male singing", "female singing", 
         "child singing", "synthetic singing", "choir", "yodeling", 
-        "chant", "humming", "rapping"
+        "chant", "humming", "rapping", "a capella"
     ],
     "drums": [
         "drum kit", "percussion", "drum machine", "drum", "snare drum", 
         "rimshot", "drum roll", "bass drum", "timpani", "tabla", 
-        "cymbal", "hi-hat", "tambourine", "wood block"
+        "cymbal", "hi-hat", "tambourine"
     ],
     "bass": [
         "bass guitar", "double bass"
@@ -41,7 +41,7 @@ LABEL_CATEGORIES = {
         "harp", "banjo", "mandolin", "sitar", "zither", "ukulele", "plucked string instrument"
     ],
     "percussion": [
-        "marimba, xylophone", "vibraphone", "steelpan"
+        "marimba, xylophone", "vibraphone", "steelpan", "wood block"
     ]
 }
 
@@ -60,7 +60,8 @@ def analysis(path):
     is_speech_pred = tellifisspeech(path)
     print(f"Is speech prediction: {is_speech_pred}")
     if is_speech_pred < THRESHOLD_SPEECH_PRED_SCORE:
-        instrum_label, instrum_score = make_instrument_pred(path, is_speech_pred)
+        processedpath =  getaudioexcerpt(path)
+        instrum_label, instrum_score = make_instrument_pred(processedpath, is_speech_pred)
         print(f"Instrument label: {instrum_label}, Score: {instrum_score}")
         proposed = map_to_proposed_label(instrum_label)
         return instrum_label.lower(), proposed
@@ -90,6 +91,7 @@ def find_audio_files(directory):
                 audio_files.append((parent_folder, full_path))
     return audio_files
 
+# OPTION 1: write to file after all results are obtained
 def write_results(audio_files, output_file='results_moises.csv'):
     """Write the audio file info and analysis result to a CSV file."""
     with open(output_file, mode='w', newline='', encoding='utf-8') as f:
@@ -98,6 +100,21 @@ def write_results(audio_files, output_file='results_moises.csv'):
         for filename, path in audio_files:
             prediction, proposed = analysis(path)
             writer.writerow([filename, path, prediction, proposed])
+
+# OPTION 2: write to file as the results are obtained
+def write_results_streaming(audio_files, output_file='results_moises.csv'):
+    with open(output_file, mode='w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['label', 'path', 'prediction', 'proposed_label'])
+        f.flush()  # flush header immediately
+        for filename, path in audio_files:
+            try:
+                prediction, proposed = analysis(path)
+            except Exception as e:
+                print(f"Error processing {path}: {e}")
+                prediction, proposed = "error", "error"
+            writer.writerow([filename, path, prediction, proposed])
+            f.flush()  # flush after each row
 
 def compute_accuracy(results_file='results_moises.csv'):
     total = 0
@@ -121,6 +138,7 @@ def main():
         sys.exit(1)
 
     directory = sys.argv[1]
+    output_file = 'results_moises.csv'
 
     if not os.path.isdir(directory):
         print(f"Error: '{directory}' is not a valid directory.")
@@ -128,10 +146,13 @@ def main():
     
     init_inst_recog()
     audio_files = find_audio_files(directory)
-    write_results(audio_files)
-    print(f"Analysis complete. Results written to 'results_moises.csv'.")
+    # OPTION 2: Uncomment the line below to write results as they are obtained    
+    write_results_streaming(audio_files, output_file=output_file)
+    # OPTION 1: Uncomment the line below to write results after all analysis
+    # write_results(audio_files, output_file=output_file)
+    print(f"Analysis complete. Results written to '{output_file}'.")
 
-    compute_accuracy('results_moises.csv')  # <-- Call the accuracy function
+    compute_accuracy(output_file) # <-- Call the accuracy function
 
 if __name__ == "__main__":
     main()

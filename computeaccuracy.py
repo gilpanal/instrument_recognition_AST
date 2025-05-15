@@ -9,6 +9,8 @@ def compute_accuracy(results_file):
 
     total = 0
     correct = 0
+    mismatches = []  # List to store mismatched entries
+
     with open(results_file, mode='r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -17,12 +19,29 @@ def compute_accuracy(results_file):
             total += 1
             if label == proposed:
                 correct += 1
+            else:
+                mismatches.append({
+                    'path': row.get('path', ''),
+                    'label': row['label'],
+                    'predicted': row.get('prediction', ''),
+                    'proposed': row['proposed_label']
+                })
 
     if total == 0:
         print("No data to evaluate.")
     else:
         accuracy = (correct / total) * 100
-        print(f"Accuracy: {accuracy:.2f}% ({correct}/{total} matches)")
+        print(f"\nAccuracy: {accuracy:.2f}% ({correct}/{total} matches)\n")
+
+        if mismatches:
+            print("Mismatches:")
+            for mismatch in mismatches:
+                print(f"- File: {mismatch['path']}")
+                print(f"  Expected label:   {mismatch['label']}")
+                print(f"  Predicted label:  {mismatch['predicted']}")
+                print(f"  Proposed label:   {mismatch['proposed']}\n")
+        else:
+            print("✅ No mismatches found!")
 
 def main():
     if len(sys.argv) != 2:
