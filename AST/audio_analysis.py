@@ -1,17 +1,10 @@
-import json
 import numpy as np
 import essentia
-import essentia.streaming as ess
 import essentia.standard as es
-from essentia.standard import MonoLoader, TensorflowPredictVGGish, TensorflowPredictMusiCNN, TensorflowPredict2D
-from instrument_recognition import init_inst_recog
+from essentia.standard import MonoLoader, TensorflowPredictVGGish
 from annotation_utils import SILENCE_RMS_DB_THRESHOLD
 
-
-import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 sr_16 = 16000
 sr_44 = 44100
@@ -19,7 +12,13 @@ sr_44 = 44100
 # Hide logging messages from Essentia
 essentia.log.infoActive = False
 
-model_genre_rosamerica = TensorflowPredictVGGish(graphFilename='models/genre_rosamerica-vggish-audioset-1.pb')
+MODEL_DIR = os.path.join(os.path.dirname(__file__), 'models')
+MODEL_PATH = os.path.join(MODEL_DIR, 'genre_rosamerica-vggish-audioset-1.pb')
+
+if not os.path.isfile(MODEL_PATH):
+    raise FileNotFoundError(f"Model not found at: {MODEL_PATH}")
+
+model_genre_rosamerica = TensorflowPredictVGGish(graphFilename=MODEL_PATH)
 
 def computeRMS(fullpath):
     audio_loader = MonoLoader()

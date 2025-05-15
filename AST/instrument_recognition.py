@@ -7,6 +7,7 @@ from essentia.standard import MonoLoader
 import os
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from annotation_utils import LOWER_SPEECH_PRED_SCORE
 from src.models.ast_models import ASTModel
 from instrument_filtered_labels import instrument_labels

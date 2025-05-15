@@ -1,6 +1,6 @@
 import os
 import sys
-from instrument_recognition import init_inst_recog
+from AST.instrument_recognition import init_inst_recog
 from commonutils import  write_results_streaming, build_label_lookup
 from computeaccuracy import compute_accuracy
 

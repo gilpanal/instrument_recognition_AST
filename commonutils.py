@@ -1,7 +1,7 @@
 import csv
-from instrument_recognition import make_instrument_pred, getaudioexcerpt
-from annotation_utils import THRESHOLD_SPEECH_PRED_SCORE
-from audio_analysis import tellifisspeech
+from AST.instrument_recognition import make_instrument_pred, getaudioexcerpt
+from AST.annotation_utils import THRESHOLD_SPEECH_PRED_SCORE
+from AST.audio_analysis import tellifisspeech
 
 def analysis(path, lookup):
     print(f"Analyzing file: {path}")
