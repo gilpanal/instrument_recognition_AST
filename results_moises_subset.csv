@@ -76,3 +76,76 @@ guitar,moisesdb/moisesdb_v0.1/1ade22ad-99bc-4954-b2b9-fb9e8fa06d41/guitar/ca0fab
 guitar,moisesdb/moisesdb_v0.1/1ade22ad-99bc-4954-b2b9-fb9e8fa06d41/guitar/c82db6e6-c96e-435d-8721-9dacaa69d256.wav,guitar,guitar
 guitar,moisesdb/moisesdb_v0.1/1ade22ad-99bc-4954-b2b9-fb9e8fa06d41/guitar/5eb463b5-9ff2-41c4-994f-daa88b68ec8b.wav,guitar,guitar
 bass,moisesdb/moisesdb_v0.1/1ade22ad-99bc-4954-b2b9-fb9e8fa06d41/bass/d4bb4f9a-7a80-4ff1-b18a-a73ec4b3c2d1.wav,bass guitar,bass
+piano,moisesdb/moisesdb_v0.1/1e957e76-d7a2-4b84-bc4a-afa87979ff57/piano/a14d4f80-80c8-48f7-936f-3d0489c80b6c.wav,piano,piano
+piano,moisesdb/moisesdb_v0.1/1e957e76-d7a2-4b84-bc4a-afa87979ff57/piano/4cef8f32-ce16-43cd-a20c-e56ea63a9464.wav,electric piano,piano
+drums,moisesdb/moisesdb_v0.1/1e957e76-d7a2-4b84-bc4a-afa87979ff57/drums/875f144d-2732-4b18-b550-273907de10fb.wav,drum kit,drums
+vocals,moisesdb/moisesdb_v0.1/1e957e76-d7a2-4b84-bc4a-afa87979ff57/vocals/98df5faa-ecf9-4a95-88ef-4b06fa09e85d.wav,speech,other
+bass,moisesdb/moisesdb_v0.1/1e957e76-d7a2-4b84-bc4a-afa87979ff57/bass/50846dfb-d8ff-47fa-8f5f-377d9d08f89f.wav,double bass,bass
+drums,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/drums/4efce4d4-b171-4220-9eab-be1cc6f68d37.wav,cymbal,drums
+drums,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/drums/8df174d7-dc9e-4645-a799-e9b62b98b853.wav,drum,drums
+drums,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/drums/b4b42df3-9d7f-4cf7-996e-15c85b4b9fe9.wav,drum machine,drums
+vocals,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/vocals/7e86617e-1864-47f1-9f9e-472743eeac24.wav,female singing,vocals
+vocals,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/vocals/386e6380-7fd2-450f-b0ed-a06c84650758.wav,a capella,vocals
+guitar,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/guitar/b1653e5c-bc3f-4bd2-899f-297e20e37718.wav,guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/guitar/bf3a04b5-a2af-43a7-a803-f647e18b4ae9.wav,guitar,guitar
+bass,moisesdb/moisesdb_v0.1/2b4e8304-c92d-4347-b09e-cfb9b3e29bf2/bass/6407cc7e-b870-4184-9fd6-47c300c0657e.wav,guitar,guitar
+piano,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/piano/2af673c1-8b71-4493-a97a-d5ca83e1f815.wav,glockenspiel,other
+drums,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/drums/be4fbf26-795b-48c0-92f4-a546571ea28e.wav,cymbal,drums
+drums,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/drums/c38c699c-6638-4771-9dd5-c9a72b4e3fe0.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/drums/bdc89e00-2068-46b5-aa66-a0819861fe4f.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/drums/f219991b-9ca1-43b8-b534-e73a71a0ad0b.wav,drum machine,drums
+vocals,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/vocals/428ae258-badb-4b7f-a0c7-4bf06461323c.wav,singing,vocals
+vocals,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/vocals/11f00b0d-561d-41ac-806b-658004d12bff.wav,speech,other
+other_keys,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/other_keys/8b248d28-0684-461e-851d-ce551fff4007.wav,electronic organ,other_keys
+guitar,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/guitar/92c772cd-406a-47d2-ac3a-1f3df0b3db2a.wav,guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/guitar/c6245220-175e-4052-8977-6524c807cd33.wav,guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/guitar/cc35ba40-9c71-4982-9219-b2233782fa90.wav,guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/guitar/3936f57a-d527-48a3-8b30-ae2c85553ada.wav,guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/guitar/22af528d-5165-4b9d-ad3d-188114e243e6.wav,guitar,guitar
+bass,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/bass/f4045b85-b6f3-46f3-9ec3-d152a81e8c1c.wav,bass guitar,bass
+percussion,moisesdb/moisesdb_v0.1/1ee489e8-55ad-4d4a-8277-24051b85c02d/percussion/29986e33-2ab8-46f1-92c7-89a2de833444.wav,tambourine,percussion
+drums,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/drums/5895d3be-fd9b-4fa1-bc99-2c1bc56ca807.wav,drum,drums
+drums,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/drums/722950e3-0c35-487e-bbf3-f23c7ff09f25.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/drums/de388cd2-653e-4430-abc2-55d2cabbf73d.wav,hi-hat,drums
+vocals,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/vocals/b1cb99f6-c10a-488c-9ec5-b68b24f2807b.wav,mantra,vocals
+vocals,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/vocals/e9d5da80-3ac0-46bb-a62f-ee423d74a7e7.wav,mantra,vocals
+guitar,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/guitar/c1ee77ca-b7de-4d30-af6d-54bfee608396.wav,guitar,guitar
+bass,moisesdb/moisesdb_v0.1/1f98fe4d-26c7-460f-9f68-33964bc4d8d3/bass/733d6965-2c61-4da2-bd67-1ef2c34347b2.wav,bass guitar,bass
+piano,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/piano/5b8836f2-431c-440a-a0c0-79a090e4193e.wav,piano,piano
+drums,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/drums/ec5323b3-3023-4659-aa88-85bc3bdd88b9.wav,drum machine,drums
+vocals,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/vocals/02220663-6577-4494-836d-4bcb19593e6e.wav,singing,vocals
+other_keys,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/other_keys/945a778f-ee44-4e94-ad73-47e67ee396c3.wav,synthesizer,other_keys
+other_keys,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/other_keys/d9aba34d-5826-4ca4-80de-e146beaf212b.wav,sampler,other_keys
+wind,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/wind/0b962862-0ba1-4924-88ac-a6076be4acc1.wav,brass instrument,wind
+bass,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/bass/4a7283d3-8294-4ad4-9e7d-55e7088a0870.wav,synthesizer,other_keys
+bass,moisesdb/moisesdb_v0.1/01c8ba69-8eee-485b-bab0-41a76f9e8892/bass/87305d06-447e-4db5-9408-dceaf3712668.wav,synthesizer,other_keys
+piano,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/piano/23dedb45-5915-45aa-bf74-1bbdd8a8e146.wav,piano,piano
+bowed_strings,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/bowed_strings/3334b409-048c-4eb3-9f08-146fafe1a83b.wav,synthesizer,other_keys
+drums,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/drums/bd2752d9-6c5d-477c-a182-51808f7289a1.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/drums/a59d4388-1052-4e08-9bd3-321146a28d1b.wav,hi-hat,drums
+drums,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/drums/f9d860cb-38fd-4c99-8053-0b42eefc5553.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/drums/f656f6a2-a84f-4cfc-8bfb-746d4ad7058d.wav,drum,drums
+vocals,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/vocals/ea7d1b3a-836c-4795-9190-eecc018e35fe.wav,singing,vocals
+vocals,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/vocals/ae3c12ee-b67f-4e09-a4aa-20b9cfa63d0e.wav,singing,vocals
+guitar,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/guitar/01e36051-b265-47c2-ba10-2cd7ef4d9b61.wav,acoustic guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/guitar/6d432107-7b9a-4ee2-a52b-802e521cbccc.wav,acoustic guitar,guitar
+guitar,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/guitar/93029daf-50ce-40ec-b7f9-87cffc772d35.wav,guitar,guitar
+bass,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/bass/e52349ad-374d-4233-992a-78260dd08791.wav,bass guitar,bass
+percussion,moisesdb/moisesdb_v0.1/1fc37390-1769-452d-9bea-19025be4c467/percussion/ed6aff6c-dce7-4d86-b9cc-d6ff09023f21.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/drums/10a0e389-a36e-4682-b2b1-77f71157c9e4.wav,drum machine,drums
+vocals,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/vocals/5b4d4c4f-d864-4df7-a2a9-f5d12586a04f.wav,mantra,vocals
+other_keys,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/other_keys/563b29b7-b714-4657-b57e-c5cf8851eb83.wav,brass instrument,wind
+bass,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/bass/40da8216-9f8e-4c5c-a0aa-ac982c377a63.wav,synthesizer,other_keys
+bass,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/bass/146922ef-1460-474e-985d-f06c86f65b96.wav,synthesizer,other_keys
+bass,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/bass/df6c2b79-a7d7-448c-9640-a5fc6030521c.wav,synthesizer,other_keys
+percussion,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/percussion/873f0d7f-1098-4719-b7f7-de917dc28749.wav,synthesizer,other_keys
+percussion,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/percussion/15380cb1-e0d7-4346-bf3d-77cda2e1a767.wav,synthesizer,other_keys
+percussion,moisesdb/moisesdb_v0.1/2a3fd99d-c86f-4275-9321-ad7146364503/percussion/ebefbffb-be99-4b11-8fda-f6bc1b3d0e9f.wav,tambourine,percussion
+drums,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/drums/2ab624bc-9df0-4e85-bb40-9ebffc15b75c.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/drums/2b6b552f-1acb-4659-b87b-cad7d7302c05.wav,drum machine,drums
+drums,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/drums/31cfcda5-6a41-46f2-9597-bec9258facb7.wav,cymbal,drums
+drums,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/drums/8e9cdfc6-b179-493d-bff2-3b22319d0500.wav,drum,drums
+vocals,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/vocals/5a431a67-a9f7-4980-9b70-81978260bfac.wav,singing,vocals
+vocals,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/vocals/b5926d39-fe9d-4d99-9498-a329d0d5d781.wav,chant,vocals
+guitar,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/guitar/b3f67daa-4410-44d3-b5ac-4fc7a4df1c89.wav,guitar,guitar
+bass,moisesdb/moisesdb_v0.1/2c020edb-5947-4fa7-afea-ebc592cea683/bass/694da41b-2600-4f5e-aa06-352b70751d5b.wav,bass guitar,bass

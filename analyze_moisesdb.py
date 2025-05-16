@@ -14,9 +14,9 @@ LABEL_CATEGORIES_MOISES = {
         "chant", "humming", "rapping", "a capella"
     ],
     "drums": [
-        "drum kit", "percussion", "drum machine", "drum", "snare drum", 
+        "drum kit", "drum machine", "drum", "snare drum", 
         "rimshot", "drum roll", "bass drum", "timpani", "tabla", 
-        "cymbal", "hi-hat", "tambourine"
+        "cymbal", "hi-hat"
     ],
     "bass": [
         "bass guitar", "double bass"
@@ -25,13 +25,13 @@ LABEL_CATEGORIES_MOISES = {
         "piano", "electric piano", "keyboard (musical)"
     ],
     "guitar": [
-        "acoustic guitar", "electric guitar", "guitar", "steel guitar, slide guitar", "tapping (guitar technique)"
+        "guitar", "acoustic guitar", "electric guitar", "guitar", "steel guitar, slide guitar", "tapping (guitar technique)"
     ],
     "wind": [
         "flute", "saxophone", "trumpet", "trombone", "clarinet", "wind instrument, woodwind instrument", "brass instrument", "french horn"
     ],
     "bowed_strings": [
-        "violin, fiddle", "cello", "double bass", "bowed string instrument"
+        "violin, fiddle", "cello", "bowed string instrument"
     ],
     "other_keys": [
         "synthesizer", "organ", "harpsichord", "electronic organ", "hammond organ", "sampler"
@@ -40,7 +40,7 @@ LABEL_CATEGORIES_MOISES = {
         "harp", "banjo", "mandolin", "sitar", "zither", "ukulele", "plucked string instrument"
     ],
     "percussion": [
-        "marimba, xylophone", "vibraphone", "steelpan", "wood block"
+        "marimba, xylophone", "vibraphone", "steelpan", "wood block", "tambourine", "percussion"
     ]
 }
 
