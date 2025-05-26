@@ -1,5 +1,5 @@
 ```bash
-git clone https://gitlab.telecom-paris.fr/idsinge/hiaudio/instrument_recognition_ast_results.git
+git clone https://github.com/gilpanal/instrument_recognition_AST.git
 
 cd instrum_recogn_results
 
