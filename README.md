@@ -60,33 +60,35 @@ python3 -m venv venv
 . venv/bin/activate
 
 pip install -r requirements.txt
-
 ```
 ### Analyze the datasets
 
 ```bash
-
 python analyze_dsd100.py /path/to/dsd100
 
 python analyze_moisesdb.py /path/to/moisesdb
-
 ```
+### Example of output for DSD100 AST analysis
 
-### Get the list of unique labels
+![screenshot](doc/output_analysis.png)
+
+
+### Get the list of unique labels in results file
 ```bash
-
 python AST/list_labels.py results_dsd100.csv
 
 python AST/list_labels.py results_moises.csv
-
 ```
+
+### Example of output for MoisesDB listing unique labels script
+
+![screenshot](doc/output_list_labels.png)
+
 ### Compute accuracy of the results obtained for one dataset
 ```bash
-
 python computeaccuracy.py results_dsd100.csv
 
 python computeaccuracy.py results_moises.csv
-
 ```
 ### Example of output for DSD100 AST accuracy computation including mistmatches
 
