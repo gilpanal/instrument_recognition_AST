@@ -1,0 +1,301 @@
+label,path,prediction,proposed_label
+drums,DSD100/Sources/Test/040 - The Long Wait - Back Home To Blue/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/040 - The Long Wait - Back Home To Blue/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/040 - The Long Wait - Back Home To Blue/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/035 - Signe Jakobsen - What Have You Done To Me/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/035 - Signe Jakobsen - What Have You Done To Me/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/035 - Signe Jakobsen - What Have You Done To Me/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/001 - ANiMAL - Clinic A/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/001 - ANiMAL - Clinic A/vocals.wav,speech,other
+bass,DSD100/Sources/Test/001 - ANiMAL - Clinic A/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Test/008 - Bill Chudziak - Children Of No-one/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/008 - Bill Chudziak - Children Of No-one/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Test/008 - Bill Chudziak - Children Of No-one/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/043 - Timboz - Pony/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/043 - Timboz - Pony/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/043 - Timboz - Pony/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/022 - Johnny Lokke - Promises & Lies/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/022 - Johnny Lokke - Promises & Lies/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/022 - Johnny Lokke - Promises & Lies/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/014 - Fergessen - Back From The Start/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/014 - Fergessen - Back From The Start/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Test/014 - Fergessen - Back From The Start/bass.wav,electric piano,other
+drums,DSD100/Sources/Test/044 - Tom McKenzie - Directions/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/044 - Tom McKenzie - Directions/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Test/044 - Tom McKenzie - Directions/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/046 - Triviul - Dorothy/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/046 - Triviul - Dorothy/vocals.wav,speech,other
+bass,DSD100/Sources/Test/046 - Triviul - Dorothy/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Test/045 - Traffic Experiment - Sirens/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/045 - Traffic Experiment - Sirens/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Test/045 - Traffic Experiment - Sirens/bass.wav,guitar,other
+drums,DSD100/Sources/Test/034 - Secretariat - Over The Top/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/034 - Secretariat - Over The Top/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Test/034 - Secretariat - Over The Top/bass.wav,guitar,other
+drums,DSD100/Sources/Test/030 - Patrick Talbot - A Reason To Leave/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/030 - Patrick Talbot - A Reason To Leave/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/030 - Patrick Talbot - A Reason To Leave/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/006 - Atlantis Bound - It Was My Fault For Waiting/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/006 - Atlantis Bound - It Was My Fault For Waiting/vocals.wav,female singing,vocals
+bass,DSD100/Sources/Test/006 - Atlantis Bound - It Was My Fault For Waiting/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/009 - Bobby Nobody - Stitch Up/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/009 - Bobby Nobody - Stitch Up/vocals.wav,speech,other
+bass,DSD100/Sources/Test/009 - Bobby Nobody - Stitch Up/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/020 - James May - Dont Let Go/drums.wav,wood block,drums
+vocals,DSD100/Sources/Test/020 - James May - Dont Let Go/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/020 - James May - Dont Let Go/bass.wav,double bass,bass
+drums,DSD100/Sources/Test/041 - The Mountaineering Club - Mallory/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/041 - The Mountaineering Club - Mallory/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/041 - The Mountaineering Club - Mallory/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/011 - Cnoc An Tursa - Bannockburn/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/011 - Cnoc An Tursa - Bannockburn/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/011 - Cnoc An Tursa - Bannockburn/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/016 - Forkupines - Semantics/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/016 - Forkupines - Semantics/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Test/016 - Forkupines - Semantics/bass.wav,guitar,other
+drums,DSD100/Sources/Test/012 - Dark Ride - Burning Bridges/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/012 - Dark Ride - Burning Bridges/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/012 - Dark Ride - Burning Bridges/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/013 - Drumtracks - Ghost Bitch/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/013 - Drumtracks - Ghost Bitch/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/013 - Drumtracks - Ghost Bitch/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/037 - Speak Softly - Broken Man/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/037 - Speak Softly - Broken Man/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/037 - Speak Softly - Broken Man/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Test/049 - Young Griffo - Facade/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/049 - Young Griffo - Facade/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Test/049 - Young Griffo - Facade/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/003 - Actions - One Minute Smile/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/003 - Actions - One Minute Smile/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/003 - Actions - One Minute Smile/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Test/005 - Angela Thomas Wade - Milk Cow Blues/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/005 - Angela Thomas Wade - Milk Cow Blues/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/005 - Angela Thomas Wade - Milk Cow Blues/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/032 - Raft Monk - Tiring/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/032 - Raft Monk - Tiring/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/032 - Raft Monk - Tiring/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/038 - Spike Mullings - Mike's Sulking/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/038 - Spike Mullings - Mike's Sulking/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/038 - Spike Mullings - Mike's Sulking/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/031 - Phre The Eon - Everybody's Falling Apart/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/031 - Phre The Eon - Everybody's Falling Apart/vocals.wav,chant,vocals
+bass,DSD100/Sources/Test/031 - Phre The Eon - Everybody's Falling Apart/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/004 - Al James - Schoolboy Facination/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/004 - Al James - Schoolboy Facination/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/004 - Al James - Schoolboy Facination/bass.wav,keyboard (musical),other
+drums,DSD100/Sources/Test/010 - Carlos Gonzalez - A Place For Us/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/010 - Carlos Gonzalez - A Place For Us/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/010 - Carlos Gonzalez - A Place For Us/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/036 - Skelpolu - Resurrection/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/036 - Skelpolu - Resurrection/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Test/036 - Skelpolu - Resurrection/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Test/027 - M.E.R.C. Music - Knockout/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/027 - M.E.R.C. Music - Knockout/vocals.wav,speech,other
+bass,DSD100/Sources/Test/027 - M.E.R.C. Music - Knockout/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/042 - The Wrong'Uns - Rothko/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/042 - The Wrong'Uns - Rothko/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/042 - The Wrong'Uns - Rothko/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/019 - James Elder & Mark M Thompson - The English Actor/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/019 - James Elder & Mark M Thompson - The English Actor/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/019 - James Elder & Mark M Thompson - The English Actor/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/029 - Nerve 9 - Pray For The Rain/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/029 - Nerve 9 - Pray For The Rain/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/029 - Nerve 9 - Pray For The Rain/bass.wav,bass guitar,bass
+drums,"DSD100/Sources/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav",drum,drums
+vocals,"DSD100/Sources/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav",male singing,vocals
+bass,"DSD100/Sources/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav",bass guitar,bass
+drums,DSD100/Sources/Test/050 - Zeno - Signs/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/050 - Zeno - Signs/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/050 - Zeno - Signs/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/021 - James May - On The Line/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/021 - James May - On The Line/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/021 - James May - On The Line/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/039 - Swinging Steaks - Lost My Way/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/039 - Swinging Steaks - Lost My Way/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/039 - Swinging Steaks - Lost My Way/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/033 - Sambasevam Shanmugam - Kaathaadi/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/033 - Sambasevam Shanmugam - Kaathaadi/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Test/033 - Sambasevam Shanmugam - Kaathaadi/bass.wav,double bass,bass
+drums,DSD100/Sources/Test/002 - ANiMAL - Rockshow/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/002 - ANiMAL - Rockshow/vocals.wav,rapping,vocals
+bass,DSD100/Sources/Test/002 - ANiMAL - Rockshow/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/018 - Hollow Ground - Ill Fate/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/018 - Hollow Ground - Ill Fate/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/018 - Hollow Ground - Ill Fate/bass.wav,guitar,other
+drums,DSD100/Sources/Test/017 - Girls Under Glass - We Feel Alright/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Test/017 - Girls Under Glass - We Feel Alright/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Test/017 - Girls Under Glass - We Feel Alright/bass.wav,sampler,bass
+drums,DSD100/Sources/Test/047 - Voelund - Comfort Lives In Belief/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/047 - Voelund - Comfort Lives In Belief/vocals.wav,chant,vocals
+bass,DSD100/Sources/Test/047 - Voelund - Comfort Lives In Belief/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/028 - Motor Tapes - Shore/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/028 - Motor Tapes - Shore/vocals.wav,humming,vocals
+bass,DSD100/Sources/Test/028 - Motor Tapes - Shore/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/007 - BKS - Too Much/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/007 - BKS - Too Much/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/007 - BKS - Too Much/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/024 - Leaf - Come Around/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/024 - Leaf - Come Around/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/024 - Leaf - Come Around/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/025 - Leaf - Wicked/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/025 - Leaf - Wicked/vocals.wav,female singing,vocals
+bass,DSD100/Sources/Test/025 - Leaf - Wicked/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/026 - Louis Cressy Band - Good Time/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/026 - Louis Cressy Band - Good Time/vocals.wav,speech,other
+bass,DSD100/Sources/Test/026 - Louis Cressy Band - Good Time/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/015 - Fergessen - The Wind/drums.wav,drum,drums
+vocals,DSD100/Sources/Test/015 - Fergessen - The Wind/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Test/015 - Fergessen - The Wind/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Test/048 - We Fell From The Sky - Not You/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Test/048 - We Fell From The Sky - Not You/vocals.wav,singing,vocals
+bass,DSD100/Sources/Test/048 - We Fell From The Sky - Not You/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/071 - James May - If You Say/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/071 - James May - If You Say/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/071 - James May - If You Say/bass.wav,double bass,bass
+drums,DSD100/Sources/Dev/057 - BKS - Bulldozer/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/057 - BKS - Bulldozer/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/057 - BKS - Bulldozer/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/088 - Speak Softly - Like Horses/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/088 - Speak Softly - Like Horses/vocals.wav,humming,vocals
+bass,DSD100/Sources/Dev/088 - Speak Softly - Like Horses/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/055 - Angels In Amplifiers - I'm Alright/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/055 - Angels In Amplifiers - I'm Alright/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Dev/055 - Angels In Amplifiers - I'm Alright/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/061 - Chris Durban - Celebrate/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/061 - Chris Durban - Celebrate/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/061 - Chris Durban - Celebrate/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/069 - Hollow Ground - Left Blind/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/069 - Hollow Ground - Left Blind/vocals.wav,singing,vocals
+bass,DSD100/Sources/Dev/069 - Hollow Ground - Left Blind/bass.wav,guitar,other
+drums,DSD100/Sources/Dev/054 - Actions - South Of The Water/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/054 - Actions - South Of The Water/vocals.wav,humming,vocals
+bass,DSD100/Sources/Dev/054 - Actions - South Of The Water/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/065 - Fergessen - Nos Palpitants/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/065 - Fergessen - Nos Palpitants/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/065 - Fergessen - Nos Palpitants/bass.wav,guitar,other
+drums,DSD100/Sources/Dev/096 - Triviul - Angelsaint/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/096 - Triviul - Angelsaint/vocals.wav,humming,vocals
+bass,DSD100/Sources/Dev/096 - Triviul - Angelsaint/bass.wav,didgeridoo,other
+drums,DSD100/Sources/Dev/073 - Johnny Lokke - Whisper To A Scream/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/073 - Johnny Lokke - Whisper To A Scream/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Dev/073 - Johnny Lokke - Whisper To A Scream/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/091 - The Long Wait - Dark Horses/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/091 - The Long Wait - Dark Horses/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/091 - The Long Wait - Dark Horses/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/076 - Little Chicago's Finest - My Own/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/076 - Little Chicago's Finest - My Own/vocals.wav,speech,other
+bass,DSD100/Sources/Dev/076 - Little Chicago's Finest - My Own/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/094 - Titanium - Haunted Age/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/094 - Titanium - Haunted Age/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/094 - Titanium - Haunted Age/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/058 - Ben Carrigan - We'll Talk About It All Tonight/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/058 - Ben Carrigan - We'll Talk About It All Tonight/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/058 - Ben Carrigan - We'll Talk About It All Tonight/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/081 - Patrick Talbot - Set Me Free/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/081 - Patrick Talbot - Set Me Free/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/081 - Patrick Talbot - Set Me Free/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/051 - AM Contra - Heart Peripheral/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/051 - AM Contra - Heart Peripheral/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/051 - AM Contra - Heart Peripheral/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/064 - Enda Reilly - Cur An Long Ag Seol/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/064 - Enda Reilly - Cur An Long Ag Seol/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/064 - Enda Reilly - Cur An Long Ag Seol/bass.wav,double bass,bass
+drums,DSD100/Sources/Dev/093 - Tim Taler - Stalker/drums.wav,percussion,drums
+vocals,DSD100/Sources/Dev/093 - Tim Taler - Stalker/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Dev/093 - Tim Taler - Stalker/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/056 - Arise - Run Run Run/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/056 - Arise - Run Run Run/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/056 - Arise - Run Run Run/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/063 - Detsky Sad - Walkie Talkie/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/063 - Detsky Sad - Walkie Talkie/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/063 - Detsky Sad - Walkie Talkie/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/077 - Lyndsey Ollard - Catching Up/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/077 - Lyndsey Ollard - Catching Up/vocals.wav,female singing,vocals
+bass,DSD100/Sources/Dev/077 - Lyndsey Ollard - Catching Up/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/075 - Leaf - Summerghost/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/075 - Leaf - Summerghost/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/075 - Leaf - Summerghost/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/085 - Side Effects Project - Sing With Me/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/085 - Side Effects Project - Sing With Me/vocals.wav,speech,other
+bass,DSD100/Sources/Dev/085 - Side Effects Project - Sing With Me/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/082 - Punkdisco - Oral Hygiene/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/082 - Punkdisco - Oral Hygiene/vocals.wav,speech,other
+bass,DSD100/Sources/Dev/082 - Punkdisco - Oral Hygiene/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/092 - The Sunshine Garcia Band - For I Am The Moon/drums.wav,percussion,drums
+vocals,DSD100/Sources/Dev/092 - The Sunshine Garcia Band - For I Am The Moon/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/092 - The Sunshine Garcia Band - For I Am The Moon/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/074 - Juliet's Rescue - Heartbeats/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/074 - Juliet's Rescue - Heartbeats/vocals.wav,female singing,vocals
+bass,DSD100/Sources/Dev/074 - Juliet's Rescue - Heartbeats/bass.wav,guitar,other
+drums,DSD100/Sources/Dev/089 - St Vitus - Word Gets Around/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/089 - St Vitus - Word Gets Around/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/089 - St Vitus - Word Gets Around/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/086 - Skelpolu - Human Mistakes/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/086 - Skelpolu - Human Mistakes/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/086 - Skelpolu - Human Mistakes/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/100 - Young Griffo - Pennies/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/100 - Young Griffo - Pennies/vocals.wav,singing,vocals
+bass,DSD100/Sources/Dev/100 - Young Griffo - Pennies/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/098 - Wall Of Death - Femme/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/098 - Wall Of Death - Femme/vocals.wav,tick,other
+bass,DSD100/Sources/Dev/098 - Wall Of Death - Femme/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/095 - Traffic Experiment - Once More (With Feeling)/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/095 - Traffic Experiment - Once More (With Feeling)/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/095 - Traffic Experiment - Once More (With Feeling)/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/052 - ANiMAL - Easy Tiger/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/052 - ANiMAL - Easy Tiger/vocals.wav,speech,other
+bass,DSD100/Sources/Dev/052 - ANiMAL - Easy Tiger/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/079 - Mu - Too Bright/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/079 - Mu - Too Bright/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/079 - Mu - Too Bright/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/067 - Georgia Wonder - Siren/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/067 - Georgia Wonder - Siren/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/067 - Georgia Wonder - Siren/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/060 - Buitraker - Revo X/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/060 - Buitraker - Revo X/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/060 - Buitraker - Revo X/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/070 - James May - All Souls Moon/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/070 - James May - All Souls Moon/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/070 - James May - All Souls Moon/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/053 - Actions - Devil's Words/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/053 - Actions - Devil's Words/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/053 - Actions - Devil's Words/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/090 - The Doppler Shift - Atrophy/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/090 - The Doppler Shift - Atrophy/vocals.wav,singing,vocals
+bass,DSD100/Sources/Dev/090 - The Doppler Shift - Atrophy/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/072 - Jay Menon - Through My Eyes/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/072 - Jay Menon - Through My Eyes/vocals.wav,mantra,vocals
+bass,DSD100/Sources/Dev/072 - Jay Menon - Through My Eyes/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/083 - Remember December - C U Next Time/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/083 - Remember December - C U Next Time/vocals.wav,singing,vocals
+bass,DSD100/Sources/Dev/083 - Remember December - C U Next Time/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/059 - Black Bloc - If You Want Success/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/059 - Black Bloc - If You Want Success/vocals.wav,rapping,vocals
+bass,DSD100/Sources/Dev/059 - Black Bloc - If You Want Success/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/084 - Secretariat - Borderline/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/084 - Secretariat - Borderline/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/084 - Secretariat - Borderline/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/099 - Young Griffo - Blood To Bone/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/099 - Young Griffo - Blood To Bone/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/099 - Young Griffo - Blood To Bone/bass.wav,guitar,other
+drums,DSD100/Sources/Dev/080 - North To Alaska - All The Same/drums.wav,drum kit,drums
+vocals,DSD100/Sources/Dev/080 - North To Alaska - All The Same/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Dev/080 - North To Alaska - All The Same/bass.wav,guitar,other
+drums,DSD100/Sources/Dev/097 - Triviul feat. The Fiend - Widow/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/097 - Triviul feat. The Fiend - Widow/vocals.wav,chant,vocals
+bass,DSD100/Sources/Dev/097 - Triviul feat. The Fiend - Widow/bass.wav,piano,other
+drums,DSD100/Sources/Dev/068 - Giselle - Moss/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/068 - Giselle - Moss/vocals.wav,theremin,other
+bass,DSD100/Sources/Dev/068 - Giselle - Moss/bass.wav,synthesizer,bass
+drums,DSD100/Sources/Dev/062 - Cristina Vane - So Easy/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/062 - Cristina Vane - So Easy/vocals.wav,a capella,vocals
+bass,DSD100/Sources/Dev/062 - Cristina Vane - So Easy/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/066 - Flags - 54/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/066 - Flags - 54/vocals.wav,humming,vocals
+bass,DSD100/Sources/Dev/066 - Flags - 54/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/078 - Moosmusic - Big Dummy Shake/drums.wav,drum,drums
+vocals,DSD100/Sources/Dev/078 - Moosmusic - Big Dummy Shake/vocals.wav,male singing,vocals
+bass,DSD100/Sources/Dev/078 - Moosmusic - Big Dummy Shake/bass.wav,bass guitar,bass
+drums,DSD100/Sources/Dev/087 - Skelpolu - Together Alone/drums.wav,drum machine,drums
+vocals,DSD100/Sources/Dev/087 - Skelpolu - Together Alone/vocals.wav,vocal music,vocals
+bass,DSD100/Sources/Dev/087 - Skelpolu - Together Alone/bass.wav,synthesizer,bass
