@@ -7,9 +7,9 @@ from computeaccuracy import compute_accuracy
 # Define a single dictionary mapping each label variant to its category
 LABEL_CATEGORIES_DSD = {
     "vocals": [
-        "singing", "mantra", "male singing", "female singing", 
-        "child singing", "synthetic singing", "choir", "yodeling", 
-        "chant", "humming", "rapping", "a capella"
+        "singing", "mantra", "male singing", "female singing",
+        "child singing", "synthetic singing", "choir", "yodeling",
+        "chant", "humming", "rapping", "a capella", "vocal music"
     ],
     "drums": [
         "drum kit", "percussion", "drum machine", "drum", "snare drum", 
@@ -17,7 +17,7 @@ LABEL_CATEGORIES_DSD = {
         "cymbal", "hi-hat", "tambourine", "wood block"
     ],
     "bass": [
-        "bass guitar", "double bass"
+        "bass guitar", "double bass", "synthesizer", "sampler"
     ]
 }
 
