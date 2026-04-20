@@ -37,7 +37,7 @@ def find_audio_files(directory):
 def main():
     
     if len(sys.argv) != 2:
-        print("Usage: python analyze_audio.py <directory_path>")
+        print("Usage: python analyze_dsd100.py <directory_path>")
         sys.exit(1)
 
     directory = sys.argv[1]

@@ -4,8 +4,6 @@ from AST.instrument_recognition import init_inst_recog
 from commonutils import  write_results_streaming, build_label_lookup
 from computeaccuracy import compute_accuracy
 
-# TODO: create groups for 
-# ['bass', 'bowed_strings', 'drums', 'guitar', 'other_keys', 'other_plucked', 'percussion', 'piano', 'vocals', 'wind']
 # Define a single dictionary mapping each label variant to its category
 LABEL_CATEGORIES_MOISES = {
     "vocals": [
@@ -25,7 +23,7 @@ LABEL_CATEGORIES_MOISES = {
         "piano", "electric piano", "keyboard (musical)"
     ],
     "guitar": [
-        "guitar", "acoustic guitar", "electric guitar", "guitar", "steel guitar, slide guitar", "tapping (guitar technique)"
+        "guitar", "acoustic guitar", "electric guitar", "steel guitar, slide guitar", "tapping (guitar technique)"
     ],
     "wind": [
         "flute", "saxophone", "trumpet", "trombone", "clarinet", "wind instrument, woodwind instrument", "brass instrument", "french horn"

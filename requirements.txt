@@ -1,7 +1,7 @@
 numpy<2
 pydub
 essentia-tensorflow
-torch
-torchaudio
+torch==2.11.0
+torchaudio==2.11.0
 soundfile
 timm==0.4.5
