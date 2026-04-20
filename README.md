@@ -142,7 +142,7 @@ No additional model download step is required. The model files are committed as 
 
 > **Note:** `essentia-tensorflow` can be the trickiest dependency to install depending on your platform. If it fails, follow the platform-specific instructions in the [Essentia documentation](https://essentia.upf.edu/installing.html).
 
-> **CPU vs GPU:** the scripts run on CPU by default. If a CUDA-compatible GPU is available, PyTorch will use it automatically for AST inference. CPU-only execution is fully supported but will be slower.
+> **CPU vs GPU:** the scripts currently run on CPU or CUDA. On NVIDIA systems, CUDA is selected automatically when available. Apple Silicon GPU (MPS) is not yet wired into the device selection; see [GPU_BACKEND_IMPLEMENTATION_PLAN.md](GPU_BACKEND_IMPLEMENTATION_PLAN.md) for the planned changes to add MPS support.
 
 
 ## Run the code locally
