@@ -90,8 +90,8 @@ The following table presents the accuracy obtained by comparing the single highe
 
 ## Download the datasets
 
-- **DSD100:** https://sigsep.github.io/datasets/dsd100.html
-- **MoisesDB:** https://music.ai/research/
+- **DSD100:** [https://sigsep.github.io/datasets/dsd100.html](https://sigsep.github.io/datasets/dsd100.html)
+- **MoisesDB:** [https://music.ai/research/](https://music.ai/research/)
 
 The scripts expect the following on-disk layouts:
 
@@ -217,10 +217,10 @@ python3 computeaccuracy.py results_moises.csv
 
 ## More info about Hi-Audio
 
-1. Article at EURASIP Journal on Audio, Speech, and Music Processing: https://link.springer.com/article/10.1186/s13636-026-00459-0
-2. Hi-Audio online platform: https://hiaudio.fr
-3. News: https://hi-audio.imt.fr/2025/03/07/bridging-music-and-research/
-4. Hi-Audio back-end repository: https://github.com/idsinge/hiaudio_backend
+1. Article at EURASIP Journal on Audio, Speech, and Music Processing: [https://link.springer.com/article/10.1186/s13636-026-00459-0](https://link.springer.com/article/10.1186/s13636-026-00459-0)
+2. Hi-Audio online platform: [https://hiaudio.fr](https://hiaudio.fr)
+3. News: [https://hi-audio.imt.fr/2025/03/07/bridging-music-and-research/](https://hi-audio.imt.fr/2025/03/07/bridging-music-and-research/)
+4. Hi-Audio back-end repository: [https://github.com/idsinge/hiaudio_backend](https://github.com/idsinge/hiaudio_backend)
 
 
 ---
@@ -240,7 +240,7 @@ We also thank [Teysir Baoueb](https://github.com/Teysir-B) (@Teysir-B) for propo
 
 If you use or reference the findings from this repository, please cite the published journal article. If you reuse the code directly, please also cite the repository. Both citations are provided below.
 
-> Gil Panal, J. M., David, A., & Richard, G. (2026). The Hi-Audio online platform for recording and distributing multi-track music datasets. *Journal on Audio, Speech, and Music Processing*. https://doi.org/10.1186/s13636-026-00459-0
+> Gil Panal, J. M., David, A., & Richard, G. (2026). The Hi-Audio online platform for recording and distributing multi-track music datasets. *Journal on Audio, Speech, and Music Processing*. [https://doi.org/10.1186/s13636-026-00459-0](https://doi.org/10.1186/s13636-026-00459-0)
 
 **BibTeX:**
 
@@ -260,7 +260,7 @@ A preprint version is also available at: [https://hal.science/hal-05153739](http
 
 **Repository citation:**
 
-> Gil Panal, J. M., David, A., & Richard, G. (2026). *Instrument Recognition with AST* [Software repository]. GitHub. https://github.com/gilpanal/instrument_recognition_AST
+> Gil Panal, J. M., David, A., & Richard, G. (2026). *Instrument Recognition with AST* [Software repository]. GitHub. [https://github.com/gilpanal/instrument_recognition_AST](https://github.com/gilpanal/instrument_recognition_AST)
 
 ```bibtex
 @misc{GilPanal2026ast,
