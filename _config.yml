@@ -1,0 +1,7 @@
+title: Instrument Recognition with AST
+description: >-
+  Evaluating the AST (Audio Spectrogram Transformer) model for instrument
+  recognition on multitrack music datasets (DSD100 & MoisesDB).
+theme: jekyll-theme-cayman
+
+show_downloads: false
