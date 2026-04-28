@@ -219,7 +219,7 @@ python3 computeaccuracy.py results_moises.csv
 
 1. Article at EURASIP Journal on Audio, Speech, and Music Processing: [https://link.springer.com/article/10.1186/s13636-026-00459-0](https://link.springer.com/article/10.1186/s13636-026-00459-0)
 2. Hi-Audio online platform: [https://hiaudio.fr](https://hiaudio.fr)
-3. News: [https://hi-audio.imt.fr/2025/03/07/bridging-music-and-research/](https://hi-audio.imt.fr/2025/03/07/bridging-music-and-research/)
+3. News: [https://hiaudio.fr/static/news.html](https://hiaudio.fr/static/news.html)
 4. Hi-Audio back-end repository: [https://github.com/idsinge/hiaudio_backend](https://github.com/idsinge/hiaudio_backend)
 
 
